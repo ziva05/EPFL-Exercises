@@ -86,3 +86,39 @@
 // var favouriteDish = ["bananas", "salads", "fresh avocades"];
 // var dishCount = favouriteDish.length;
 // console.log(dishCount);
+
+// Create a JavaScript array to store your 3 favorite sports: 
+var favouriteSports = ["swimming", "running", "bikinig"];
+
+// List each of them in the console on their own separate line
+console.log(favouriteSports[0]);
+console.log(favouriteSports[1]);
+console.log(favouriteSports[2]);
+
+// Display the count of your favorite sports: 
+var sportsCount = favouriteSports.length;
+console.log(sportsCount);
+
+// Add a 4th sports to the array:
+favouriteSports.push("climbing");
+console.log(favouriteSports);
+
+// Display the count once more within "I have x favorite sports":
+var SportsCount = favouriteSports.length;
+message = "I have " + SportsCount.toString() + " favorite sports.";
+
+console.log(SportsCount); 
+console.log(message);
+
+// Remove the 2nd one:
+favouriteSports.splice(2,1);
+console.log(favouriteSports);
+
+// Sort them in alphabetical order:
+favouriteSports.sort();
+console.log(favouriteSports);
+
+// Display the count again:
+var sportsCount = favouriteSports.length;
+console.log(sportsCount);
+
