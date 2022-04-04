@@ -88,10 +88,10 @@
 # print(town["population"])
 
 # 8.29 Exercise: Your programmer business card
-business_card = {"name": "Kevin", 
-                "surname": "Chappuis",
-                "adress": "ch. des Alpages 9",
-                "city": "Lausanne"}
-print(business_card["name"])
-print(business_card["adress"])
-print(business_card["city"])
+# business_card = {"name": "Kevin", 
+#                 "surname": "Chappuis",
+#                 "adress": "ch. des Alpages 9",
+#                 "city": "Lausanne"}
+# print(business_card["name"])
+# print(business_card["adress"])
+# print(business_card["city"])
