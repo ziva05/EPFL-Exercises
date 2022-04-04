@@ -105,34 +105,46 @@ import random
 answer = random.randint(1,101)
 user_wins = False
 attemps = 0
+attempt_word = ""
 
-# 2 start the game logic > loop
+# 2-start the game logic > loop
 while user_wins != True:
 
     # get user input (inside your input insert number)
-    guess = int(input("Please enter a number between 1 and 100: "))
+    guess = int(input("Enter a number between 1 and 100: "))
     i = i + 1
     # check the user input meaning number not a string
     try:
-        secret_number = int(guess) + 1
+        guess_number = int(guess)
         # error message
     except:
         print("Error: You need to enter a valid number! ")
         quit()
-
-
-
-
-        
+       
     # increase the attempt count
+    attempts += 1
+
     # check the user answer against the secret_number
-# 3 get the spelling of the "attempt" word
+    if quess_number == answer:
+        user_wins = True
+    elif guess_number > answer:
+        print("The secret number is smaller!")
+    else:
+        print("The secret number is bigger!")
+
+# 3-get the spelling of the "attempt" word
+    if attempts == "1":
+    attempt_word = " attempt "
+   
+   
+    
+    else: 
+        attempt_word = " attempts "
+        print("It took you " + str(current_attempt) + " attemps to win!")
 
 
-
-# 4 display congratulations message. 
-
-
+# 4-display the result.
+print("you won!!! It took " + str(attempts) + attempt_word)
 
 
 
