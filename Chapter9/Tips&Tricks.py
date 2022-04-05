@@ -45,13 +45,13 @@
 #     quit()
 # print("The result is " + str(result))
 
-number = input("Please, write a number between 0 and 10: ")
+# number = input("Please, write a number between 0 and 10: ")
 
-try:
-    result = int(number)
+# try:
+#     result = int(number)
 
-except:
-    print("Huston? We have a problem!")
-    quit()
+# except:
+#     print("Huston? We have a problem!")
+#     quit()
 
-print(number)
+# print(number)

@@ -153,22 +153,22 @@
 // console.log("Done!");
 
 
-var i = 1;
-while (i < 4) {
-    var step = "";
-    if (i == 1){
-        step = " step";
-    } else {
-        step = " steps";
-    }
-    console.log(i.toString() + step);
-    i = i + 1;
-}
+// var i = 1;
+// while (i < 4) {
+//     var step = "";
+//     if (i == 1){
+//         step = " step";
+//     } else {
+//         step = " steps";
+//     }
+//     console.log(i.toString() + step);
+//     i = i + 1;
+// }
 
-// 8.25 Looping through arrays in JavaScript
-fruits = ["apples", "oranges", "bananas"];
- for (i = 0; i < fruits.length; i = i + 1){
-     console.log(fruits[i]);
+// // 8.25 Looping through arrays in JavaScript
+// fruits = ["apples", "oranges", "bananas"];
+//  for (i = 0; i < fruits.length; i = i + 1){
+//      console.log(fruits[i]);
  }
 
 
@@ -205,11 +205,11 @@ fruits = ["apples", "oranges", "bananas"];
 // console.log(vehicle["color"]);
 
 // 8.32. Exercise: Convert your programmer business card to JavaScript
-var business_card = {"name": "Kevin", 
-                     "surname": "Chappuis",
-                     "adress": "ch. des Alpages 9",
-                     "city": "Lausanne"}
+// var business_card = {"name": "Kevin", 
+//                      "surname": "Chappuis",
+//                      "adress": "ch. des Alpages 9",
+//                      "city": "Lausanne"}
 
-console.log(business_card.name);
-console.log(business_card.surname);
-console.log(business_card.adress);
+// console.log(business_card.name);
+// console.log(business_card.surname);
+// console.log(business_card.adress);
