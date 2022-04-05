@@ -73,10 +73,26 @@ function litersToGallons(liters){
 }
 
 // Func: Ask if the user wants to convert something
+function askContinue() {
+    var answer = window.prompt("Do you want to convert a value? (yes/no)");
+    if(answer == "yes") {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 // Func: Ask which conversion
+function askConversion() {
+    var answer = window.prompt("Which conversion? (euros/celsius/liters");
+    return answer;
+}
 
 // Func: Ask for a value
+function askValue() {
+    var answer = window.prompt("Enter a value");
+    return answer;
+}
 
 // Main:
 // - Continue while the user wants to convert something
