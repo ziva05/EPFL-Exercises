@@ -100,6 +100,25 @@ function askValue() {
 // - Get the value
 // - Display the result
 
+while(askContinue()) {
+    var conversionType = askConversion();
+    var conversionValue = askValue();
+    var resultMessage = "The result is ";
+   
+    if (conversionType == "euros") {
+        resultMessage += eurosToCHF(Number(conversionValue)).toString();
+    } else if (conversionType == "celsius") {
+        resultMessage += celsiusToFaren(Number(conversionValue)).toString();
+    } else if (conversionType == "liters") {
+        resultMessage += litersToGallons(Number(conversionValue)).toString();
+    } else {
+        resultMessage = "Sorry. I can't do this conversion.";
+    }
+    console.log(resultMessage);
+}
+
+
+
 
 
 
