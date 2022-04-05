@@ -1,10 +1,10 @@
 // 1- Find at least 3 conversion formulas you want to use with your multiconverter
 // I. Conversion from CHF to EUR:
-    //     result = chf * 1.0;
+    //     eur = chf * 1.0;
 // II. Conversion Miles to KM:
-    // result = mph * 1.609344;
+    // km = mph * 1.609344;
 // III. Conversion C° to Farenheit:
-// (celsius * 9/5) + 32 = Farnheit
+// farenheit = celsius * 9/5) + 32 
 
 // 2- Write a function for each formula
 // I. Conversion from CHF to EUR:
@@ -54,5 +54,37 @@ console.log(userInput);
 
 // If the user chooses a non supported conversion, display that in the console
 
-    
+// /////////////////////////////////////////////
+// Func: Euro to CHF 
+// euros * 1.13
+function eurosToCHF(euros){
+    return euros * 1.13;
+}
+
+// Func: Celsius to Farenheit
+// (celsius * 9/5) + 32
+function celsiusToFaren(celsius){
+    return (celsius * 9/5) + 32;
+}
+// Func: Liters to Gallons
+// liters / 3.785
+function litersToGallons(liters){
+    return liters / 3.785;
+}
+
+// Func: Ask if the user wants to convert something
+
+// Func: Ask which conversion
+
+// Func: Ask for a value
+
+// Main:
+// - Continue while the user wants to convert something
+// - Check which conversion
+// - Get the value
+// - Display the result
+
+
+
+
     
