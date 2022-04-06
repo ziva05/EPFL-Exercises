@@ -60,10 +60,6 @@
 # print("The program terminated successfully.")
 
 # Update secret word program
-from ast import And
-from select import KQ_FILTER_WRITE
-
-
 # secret_word = "kiwi"
 # guess = input("What is the secret word?")
 
@@ -230,27 +226,27 @@ from select import KQ_FILTER_WRITE
 
 # 5.32 Ex: Guess the number and the color 
 
-def play():
-    secret_number = 12
-    secret_color = "red"
+# def play():
+#     secret_number = 12
+#     secret_color = "red"
 
 
-    guess_number = input("Please, write the number between 1 and 20: ")
-    guess_color = input("Please, write down a color: ")
+#     guess_number = input("Please, write the number between 1 and 20: ")
+#     guess_color = input("Please, write down a color: ")
 
-    if secret_number == int(guess_number) and secret_color == guess_color:
-        print("Congratulations! You've found both the secret number and the secret color!")
+#     if secret_number == int(guess_number) and secret_color == guess_color:
+#         print("Congratulations! You've found both the secret number and the secret color!")
 
-    elif secret_number == int(guess_number) or secret_color == guess_color:
-        print("Great! You've found at least one of the secrets!")
+#     elif secret_number == int(guess_number) or secret_color == guess_color:
+#         print("Great! You've found at least one of the secrets!")
 
-    else:
-        print("You didn't find any of the secrets!")
-        print("Better luck next time!")
+#     else:
+#         print("You didn't find any of the secrets!")
+#         print("Better luck next time!")
 
-    print("Try again!")
+#     print("Try again!")
 
-play()
+# play()
 
 
 
