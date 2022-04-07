@@ -18,9 +18,9 @@ def liters_to_gallons(liters):
 def ask_continue():
     answer = input("Do you want to convert a value? (yes/no)")
     if(answer == "yes"):
-        return true
+        return True
     else:
-        return false
+        return False
 
 
 # Func: Ask which conversion
@@ -45,11 +45,11 @@ while(ask_continue()):
     result_message = "The result is "
    
     if (conversion_type == "euros"):
-        result_message += euros_to_CHF(int(str(conversion_value)))
+        result_message += str(euros_to_CHF(conversion_value))
     elif (conversion_type == "celsius"):
-        result_message += celsius_to_farenheit(int(str(conversion_value)))
+        result_message += str(celsius_to_farenheit(conversion_value))
     elif (conversion_type == "liters"): 
-        result_message += liters_to_gallons(int(str(conversion_value)))
+        result_message += str(liters_to_gallons(conversion_value))
     else:
         result_message = "Sorry. I can't do this conversion."
  
