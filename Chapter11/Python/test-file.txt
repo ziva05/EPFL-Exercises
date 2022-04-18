@@ -1,0 +1,3 @@
+Hey! This is a Chapter 11.08. The objective of the chapter is to write direct to a file. Let's check that in my test-file.txt.
+How do you like the content - writing to a file? This is the last try. 
+Let's go to the new line.

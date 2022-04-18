@@ -38,9 +38,9 @@
 # print(replaced)
 
 # Splitting a string into an array: used to count the number of letters in text
-words = "apples,oranges,bananas"
-fruits = words.split(",")
-print(fruits)
+# words = "apples,oranges,bananas"
+# fruits = words.split(",")
+# print(fruits)
 
 # words = "apples,bananas,oranges"
 # array = words.split(",")

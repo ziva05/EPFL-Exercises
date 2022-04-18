@@ -3,9 +3,10 @@
 
 
 // 1-set up phase
-var answer = Math.random() * 101;
-answer = Math.floor(answer);
-userWins = false;
+var answer = "";
+var guessNumber = Math.random() * 101;
+guessNumber = Math.floor(guessNumber);
+var userWins = false;
 var attempts = 0;
 var attemptWord = "";
 
@@ -13,16 +14,16 @@ var attemptWord = "";
 while (userWins != true) {
 
   // Get a user input (inside your input insert a number)
-  var guess = window.prompt("Enter a number between 1 and 100: ");
+  answer = window.prompt("Enter a number between 1 and 100: ");
 
   // Check the user input meaning number not a string
   try{
-       var guess_number = Number(guess);
+       answer = Number(answer)
     }
   //   error message
-  except{
+  catch{
       console.log("Error: You need to enter a valid number! ");
-      quit();
+      break;
     }
         
   // Increase the attempt count
@@ -30,23 +31,22 @@ while (userWins != true) {
 
 
   // Check the user answer against the secret_number
-  if guessNumber == answer{
+  if (guessNumber == answer){
       userWins = true;
-    }
-  else if guessNumber > answer{
-       console.log("The secret number is smaller!");
-    } else{
-        console.log("The secret number is bigger!");  
-    }
+  }
+  else if (guessNumber > answer){
+      console.log("The secret number is bigger!");
+  } else{
+      console.log("The secret number is smaller!");  
+  }
+}
 
 // 3-get the spelling of the "attempt" word
-if attempts == "1") {
-    var attemptWord = " attempt";
+if (attempts == 1) {
+    attemptWord = " attempt";
 } else{
-    var attemptWord = " attempts";
+    attemptWord = " attempts";
 }
-console.log(i.toString()) + attempt;
-attemptWord = attempt + 1;
 
 // 4-display the result.
 console.log("You won!!! It took " + attempts.toString() + attemptWord);
