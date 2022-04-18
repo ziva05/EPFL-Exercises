@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.navigation {
+    text-align: right;
+}
+
+.menu-link {
+    color: red;
+}
+
+h4 {
+    color: green;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #373737;
+}
+
+#footer-message {
+    color: #373737;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
