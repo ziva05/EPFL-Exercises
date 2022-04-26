@@ -27,10 +27,12 @@
 // }
 // function greet(name) {
 //     console.log("Hello " + name);
-// }
-// function addTwoNumbers(a, b) {
-//     return a + b;
-// }
+
+function addTwoNumbers(a, b) {
+    return a + b;
+ }
+
+ addTwoNumbers(); 
 
 // sayHello();
 // greet("World");
@@ -42,10 +44,10 @@
 // var result = multiply(5, 3);
 // console.log(result);
 
-// function call(msgBefore, msgAfter, fn) {
-//     console.log(msgBefore);
-//     fn();
-//     console.log(msgAfter);
+ function call(msgBefore, msgAfter, fn) {
+    console.log(msgBefore);
+     fn();
+   console.log(msgAfter);
 // }
 
 // function display() {
@@ -53,11 +55,14 @@
 // }
 // call("Before", "After", display);
 
-// function call(msgBefore, msgAfter, fn) {
-//     console.log(msgBefore);
-//     fn();
-//     console.log(msgAfter);
-// }
+ function call(msgBefore, msgAfter, fn) {
+    console.log(msgBefore);
+    fn();
+    console.log(msgAfter);
+ }
+
+ call("hello there", "how are you")
+
 
 // call("Before", "After", function() {
 //     console.log("Called inside the function!")
@@ -653,20 +658,44 @@ console.log(meenie.name);
 // lori.sayHi();
 
 // Person class
-class Person {
-    constructor(name) {
-        this.name = name;
-    }
+// class Person {
+//     constructor(name) {
+//         this.name = name;
+//     }
     // Add sayHi to the Person class
-    sayHi() {
-        console.log(`Hello! I'm ${this.name}.`);
+//     sayHi() {
+//         console.log(`Hello! I'm ${this.name}.`);
+//     }
+// }
+// // Test a Person object
+// const lori = new Person("Lori");
+// lori.sayHi();
+
+// // Test 
+// const andrea = new Person ("Andrea");
+// console.log(lori.sayHi === andrea.sayHi);
+
+function sayHello(){
+    console.log("Hello how are you"); 
+}
+
+sayHello(); 
+
+
+function weather(){
+    console.log("The weather is beautiful");
+}
+
+weather(); 
+
+function whatClothsToWear(weather){
+
+    if(weather == "Sunny"){
+        console.log("Put the T-shirt.");
+    } else if(weather == "Rainy"){
+        console.log("Put a jacket.");
+    } else if(weather == "Snowy"){
+        console.log("Put your glowes.");
     }
 }
-// Test a Person object
-const lori = new Person("Lori");
-lori.sayHi();
-
-// Test 
-const andrea = new Person ("Andrea");
-console.log(lori.sayHi === andrea.sayHi);
-
+whatClothsToWear("Rainy"); 
