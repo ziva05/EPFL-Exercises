@@ -1,0 +1,41 @@
+.beautiful {
+    font-size: 20px;
+    color: rgb(255, 246, 246);
+    text-align: center;
+}
+
+
+#content {
+    background-color: #343232;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#myButton {
+    background-color: green;
+    color:rgb(255, 246, 246);
+    text-align: center;
+}
+
+#buttonRemove {
+    background-color: orange;
+    color:rgb(255, 246, 246);
+    text-align: center;
+}
+
+#buttonClearAll {
+    background-color: red;
+    color:rgb(255, 246, 246);
+    text-align: center;
+}
+
+.input-container{
+   
+    display:flex; 
+    justify-content: center;
+}
